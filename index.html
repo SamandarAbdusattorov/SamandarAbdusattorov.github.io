@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Samandar Abdusattorov - Python Backend Developer - Portfolio</title>
+    <meta name="description" content="Samandar Abdusattorov is a Python Backend developer from Tashkent, Uzbekistan.">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+      https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCitmkgmV_uLWXEBuIoGj0CmSCPSGR3jjg",
+      authDomain: "portfolio-21044.firebaseapp.com",
+      projectId: "portfolio-21044",
+      storageBucket: "portfolio-21044.appspot.com",
+      messagingSenderId: "626525297219",
+      appId: "1:626525297219:web:5969aa7752600a312d92f6",
+      measurementId: "G-76N3HJNPGN"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>  
+<link rel="shortcut icon" href="images/samandar.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="images/samandar.jpg"
+              alt="Samandar Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Samandar Abdusattorov</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#links"> Links </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, I am Samandar 👋</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Hey There, I'm a Python Backend Developer from Tashkent in Uzbekistan uz.  I graduated from Tashkent University of Information Technologies, with a specialty in Radio and Mobile Communication. Additionally, I completed a Python Django course at the 'Najot Ta'lim' training center.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./index.html#links" class="btn btn--bg">Links</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://t.me/sacramento12" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/tg.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/SamandarAbdusattorov" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://www.instagram.com/sacramento.12/"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/insta-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="mailto:asamandar235@gmail.com" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/email.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            A Boy with dream to enrich life of people with exciting software products 😀.
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                
+                </br></br>Currently, I continue my career in programming and gain experience in real projects by working on myself, my main job is to solve problems and eliminate errors.
+                </br></br>In my free time, I play volleyball in the Tashkent VSL league 🏐. I love listening to music 🎵.
+                </br></br>I like to interact with people, and listen to new ideas 💡. I am always open to discussing anything and look forward to connecting with you 🤝.
+                Feel free to <strong>contact</strong> me here. ⤵️
+              </p>
+            </div>
+            <script>
+              function sendEmail() 
+              {
+                  window.location.assign("mailto:asamandar235@gmail.com");
+              }
+              </script>
+              <div class="btn btn--med btn--theme dynamicBgClr" style= "cursor:pointer" onclick="sendEmail();">Contact</div>              
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">Django</div>
+              <div class="skills__skill">Django Rest Framework</div>
+              <div class="skills__skill">PostgreSQL</div>
+              <div class="skills__skill">Insomnia</div>
+              <div class="skills__skill">Docker</div>
+              <div class="skills__skill">Nginx</div>
+              <div class="skills__skill">RabbitMQ</div>
+              <div class="skills__skill">Celery</div>
+              <div class="skills__skill">Git</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://t.me/sacramento12">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/tg.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/SamandarAbdusattorov/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/sacramento.12/">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="mailto:asamandar235@gmail.com">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/email.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Pankaj Gaikar</h4>
+            <p class="main-footer__short-desc">
+              Samandar Abdusattorov is a Python Backend developer from Tashkent, Uzbekistan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
